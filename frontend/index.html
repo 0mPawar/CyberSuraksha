@@ -2,13 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSuraksha — Digital Safety & Cyber Scam Awareness India</title>
-    <meta name="description" content="CyberSuraksha is a community awareness platform dedicated to cybercrime education, scam prevention, and official reporting guidance for Indian citizens." />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="CyberSuraksha provides practical cyber-safety awareness, scam prevention guidance, and verified reporting resources for people in India." />
+    <meta property="og:title" content="CyberSuraksha | Cyber Safety Awareness" />
+    <meta property="og:description" content="Learn how to identify scams, protect your digital life, and find verified reporting guidance." />
+    <meta property="og:type" content="website" />
+    <title>CyberSuraksha | Cyber Safety Awareness</title>
   </head>
   <body class="bg-slate-50 text-slate-900 min-h-screen antialiased">
     <div id="root"></div>
+    <script>
+      (function () {
+        const redirect = new URLSearchParams(window.location.search).get('redirect');
+        if (redirect && redirect.startsWith('/') && !redirect.startsWith('//')) {
+          window.history.replaceState(null, '', '%BASE_URL%'.replace(/\/$/, '') + redirect);
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

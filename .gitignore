@@ -1,160 +1,99 @@
 # =========================================================
-# CyberSaathi - Root Git Ignore
+# CYBERSURAKSHA - ROOT GIT IGNORE
 # =========================================================
 
-
-# =========================================================
 # ENVIRONMENT / SECRETS
-# =========================================================
-
 .env
 .env.*
 !.env.example
-
 **/.env
 **/.env.*
 !**/.env.example
 
-# Private keys / certificates
 *.pem
 *.key
 *.crt
 *.p12
 *.pfx
 
-
 # =========================================================
 # NODE.JS / NPM
 # =========================================================
 
-# Dependencies
 node_modules/
 **/node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Package manager temporary files
 .npm/
 .yarn/
 .pnpm-store/
-
-# Optional npm cache files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 .npmrc.local
 
-
 # =========================================================
-# REACT + VITE
+# REACT + VITE GENERATED FILES
 # =========================================================
 
-# Vite build output
 dist/
 **/dist/
-
-# Vite cache
 .vite/
 **/.vite/
-
-# React build output
 build/
 **/build/
 
-
 # =========================================================
-# BACKEND
-# =========================================================
-
-# Runtime logs
-logs/
-**/logs/
-*.log
-
-# Uploaded/generated backend files
-backend/uploads/
-backend/tmp/
-
-# Local database files, if used later
-*.sqlite
-*.sqlite3
-*.db
-
-
-# =========================================================
-# PYTHON / AI MODEL
+# BACKEND - KEEP LOCAL, DO NOT UPLOAD
 # =========================================================
 
-# Python cache
+/backend/
+
+# =========================================================
+# AI MODEL - KEEP LOCAL, DO NOT UPLOAD
+# =========================================================
+
+/model/
+
+# =========================================================
+# TEMPORARY PROJECT FILES - KEEP LOCAL
+# =========================================================
+
+/temp/
+
+# =========================================================
+# DOCUMENTATION
+# Allow docs/README.txt and docs/reports & survey/
+# Ignore other documentation files until ready to publish
+# =========================================================
+
+/docs/*
+!/docs/README.txt
+!/docs/reports & survey/
+
+# Allow files and subfolders inside reports & survey
+/docs/reports & survey/*
+!/docs/reports & survey/**
+
+# =========================================================
+# PYTHON CACHE AND ENVIRONMENTS
+# =========================================================
+
 __pycache__/
 **/__pycache__/
 *.py[cod]
-*$py.class
-
-# Python virtual environments
 .venv/
 venv/
 env/
 ENV/
 **/.venv/
 **/venv/
-
-# Jupyter
 .ipynb_checkpoints/
-**/.ipynb_checkpoints/
-
-# Python test/cache files
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
-# Python build files
-*.egg
 *.egg-info/
-dist/
-build/
-
 
 # =========================================================
-# MACHINE LEARNING / GENERATED MODEL FILES
-# =========================================================
-
-# Training checkpoints / generated temporary model files
-model/checkpoints/
-model/runs/
-
-# TensorFlow
-model/__pycache__/
-
-# Large generated model artifacts
-# Uncomment these if the trained models become too large for Git:
-# model/models/*.pkl
-# model/models/*.joblib
-# model/models/*.h5
-# model/models/*.pt
-# model/models/*.pth
-
-
-# =========================================================
-# TEMPORARY PROJECT FILES
-# =========================================================
-
-temp/*
-!temp/README.md
-
-temp/uploads/*
-temp/exports/*
-temp/logs/*
-
-# Keep directory placeholders
-!temp/uploads/.gitkeep
-!temp/exports/.gitkeep
-!temp/logs/.gitkeep
-
-
-# =========================================================
-# GENERATED FILES
+# GENERATED / TEMPORARY FILES
 # =========================================================
 
 *.tmp
@@ -163,72 +102,47 @@ temp/logs/*
 *.bak
 *.swp
 *.swo
-
+*.log
 
 # =========================================================
 # OPERATING SYSTEM FILES
 # =========================================================
 
-# Windows
 Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
 Desktop.ini
-
-# macOS
 .DS_Store
 .AppleDouble
-.LSOverride
-
-# Linux
-*~
-
 
 # =========================================================
-# EDITORS / IDEs
+# EDITORS
 # =========================================================
 
-# VS Code local settings
 .vscode/settings.json
 .vscode/*.log
-
-# JetBrains
 .idea/
-
-# Visual Studio
 .vs/
 
-
 # =========================================================
-# COVERAGE / TEST OUTPUT
+# TEST OUTPUT
 # =========================================================
 
 coverage/
 **/coverage/
 .nyc_output/
-.pytest_cache/
-
 
 # =========================================================
-# GENERATED DOCUMENT FILES
+# TEMPORARY OFFICE FILES
 # =========================================================
 
-# Office temporary files
 ~$*.docx
 ~$*.xlsx
 ~$*.pptx
-
-# Temporary PDF files
 *.temp.pdf
 
-
 # =========================================================
-# LOCAL / PERSONAL FILES
+# PERSONAL / LOCAL FILES
 # =========================================================
 
-# Personal notes
 *.local
 *.personal
-
-# Local configuration
 config.local.*

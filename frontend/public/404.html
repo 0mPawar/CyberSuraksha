@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CyberSuraksha</title>
+    <script>
+      (function () {
+        var basePath = '/CyberSuraksha';
+        var route = window.location.pathname.slice(basePath.length) + window.location.search + window.location.hash;
+        if (!route.startsWith('/assets/')) {
+          window.location.replace(basePath + '/?redirect=' + encodeURIComponent(route || '/'));
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

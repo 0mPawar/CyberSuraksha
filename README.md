@@ -1,342 +1,210 @@
-Sure. Since the project is now **Cyber Suraksha**, I'd make the README professional but not overclaim features that we haven't implemented yet.
-
-You can replace your current root `README.md` with this:
-
-````markdown
 # 🛡️ Cyber Suraksha
 
-### Cyber Fraud / Digital Scam Awareness & Assistance System
+### Cyber Fraud and Digital Scam Awareness Platform
 
-> **Think Before You Click, Verify Before You Trust.**
+> **Think Before You Click. Verify Before You Trust.**
 
-Cyber Suraksha is a digital safety and awareness platform designed to help users recognize cyber fraud and digital scams, understand suspicious activities, take appropriate safety measures, and find suitable reporting guidance.
+Cyber Suraksha is a cyber-safety awareness project designed to help
+people recognise common online scams, understand warning signs, practise
+safer digital habits, and find appropriate official reporting resources.
 
-The project combines **cyber-fraud awareness, scam guidance, assistance resources, and AI-based support** into a single platform.
+The project is being developed as a **Community Engagement Project
+(CEP)**. Its aim is to make cyber-safety information easier to
+understand and access.
 
 ---
 
 ## 📌 About the Project
 
-With the increasing use of UPI, online banking, social media, e-commerce, and other digital services, users are increasingly exposed to different forms of cyber fraud and digital scams.
+Digital payments, online banking, social media, e-commerce, and other
+online services are part of everyday life. However, scammers may exploit
+urgency, trust, impersonation, and misleading messages to trick people
+into sharing sensitive information or transferring money.
 
-Many scams are designed to create urgency or trust through convincing calls, messages, links, websites, payment requests, and social-media interactions. Users may also be unsure about what steps to take after encountering or suspecting a scam.
-
-**Cyber Suraksha** aims to provide a simple and accessible platform where users can:
-
-- Learn about common cyber frauds and digital scams
-- Understand warning signs and suspicious patterns
-- Get basic guidance for suspicious activities
-- Learn immediate safety steps after a suspected scam
-- Find appropriate reporting guidance
-- Access awareness resources and educational content
-- Interact with AI-based assistance for cyber-safety questions
-
----
+Cyber Suraksha aims to provide a central place where users can learn
+about cyber fraud, understand suspicious activities, and find practical
+safety guidance.
 
 ## 🎯 Objectives
 
-The main objectives of Cyber Suraksha are:
+- Increase awareness of cyber fraud and digital scams.
+- Explain common scam techniques and warning signs in simple language.
+- Encourage safer digital-payment and online-account practices.
+- Provide general guidance for people who suspect they have
+  encountered a scam.
+- Direct users to relevant official reporting resources.
+- Support community-level cyber-safety awareness through the CEP.
 
-1. Increase awareness about cyber fraud and digital scams.
-2. Help users recognize common scam techniques and warning signs.
-3. Provide understandable guidance when users encounter suspicious activities.
-4. Help users understand what actions should be taken after a suspected fraud.
-5. Provide guidance toward appropriate official reporting resources.
-6. Provide educational resources for improving digital safety practices.
-7. Support community-level cyber-fraud awareness through the CEP.
+## 🌐 Website Features
 
----
+The website focuses on public cyber-safety information, including:
 
-## 🚀 Planned Features
+- **Scam Awareness:** Information about common online scams and fraud
+  patterns.
+- **Scam Guides:** Typical warning signs, prevention tips, and general
+  response steps.
+- **Safety Guidance:** Advice for safer digital payments, messages,
+  links, accounts, and devices.
+- **Help and Resources:** Links to official cybercrime reporting and
+  public-service websites.
+- **Learning Centre:** Introductory cybersecurity topics and
+  frequently asked questions.
 
-### 1. 🧠 Scam Awareness
+Features that are still under development should be treated as planned
+rather than available. The website does not submit official complaints
+on behalf of visitors.
 
-Information about different types of cyber fraud and digital scams, including:
-
-- OTP scams
-- UPI and payment scams
-- Phishing
-- Fake customer-care scams
-- KYC scams
-- Job scams
-- Investment scams
-- Online shopping scams
-- Social-media scams
-- Other emerging scam patterns
-
----
-
-### 2. 🔍 Scam Checker
-
-A feature that allows users to provide suspicious information and receive basic risk guidance based on identifiable warning signs.
-
-> The Scam Checker is intended as an awareness and guidance tool and should not be treated as a guaranteed fraud-detection system.
-
----
-
-### 3. 🚨 Emergency Assistance
-
-Provides clear and practical guidance for users who suspect that they have encountered or become a victim of a digital scam.
-
-The feature focuses on helping users understand:
-
-- What to do immediately
-- What information to preserve
-- What actions to avoid
-- Where to seek appropriate assistance
-
----
-
-### 4. 📢 Report Guidance
-
-Provides guidance toward appropriate and verified official channels for reporting cyber-fraud incidents.
-
----
-
-### 5. 📚 Awareness Resources
-
-Educational material such as:
-
-- Safety tips
-- Scam examples
-- FAQs
-- Videos
-- Awareness content
-- Preventive practices
-
----
-
-### 6. 🤖 AI Assistance
-
-An AI-based assistant planned to help users understand:
-
-- Scam patterns
-- Suspicious situations
-- Digital-safety practices
-- General cyber-fraud awareness questions
-
----
-
-## 🔄 System Flow
+## 🔄 General System Flow
 
 ```text
 User encounters suspicious activity
-              ↓
-       Opens Cyber Suraksha
-              ↓
-     Selects / describes the issue
-              ↓
-       System provides guidance
-              ↓
-      Safety precautions / steps
-              ↓
-      Reporting / assistance
-              ↓
-        Learn & stay protected
-````
-
----
-
-## 🏗️ Project Structure
-
-```text
-CyberSuraksha/
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── database/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── tests/
-│   ├── utils/
-│   ├── validators/
-│   ├── app.js
-│   └── server.js
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── data/
-│       ├── layouts/
-│       ├── pages/
-│       ├── hooks/
-│       ├── services/
-│       └── utils/
-│
-├── model/
-│   ├── data/
-│   ├── models/
-│   ├── notebooks/
-│   └── src/
-│
-├── docs/
-│   ├── design/
-│   ├── presentation/
-│   ├── reports/
-│   ├── research/
-│   └── survey/
-│
-└── temp/
+              |
+              v
+      Opens Cyber Suraksha
+              |
+              v
+ Reads scam information and safety guidance
+              |
+              v
+     Reviews recommended next steps
+              |
+              v
+Uses an appropriate official resource
+              |
+              v
+      Learns safer online practices
 ```
-
----
 
 ## 🛠️ Technology Stack
 
 ### Frontend
 
-* React
-* Vite
-* JavaScript
-* HTML
-* CSS
-
-### Backend
-
-* Node.js
-* Express.js
-* REST APIs
-
-### Database
-
-* SQL-based database
-
-### AI / ML
-
-* Python
-* Machine Learning / AI components as required
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router
+- Lucide React
 
 ### Development Tools
 
-* Git
-* GitHub
-* VS Code
+- Git and GitHub
+- Visual Studio Code
+- npm
 
----
+The repository may contain separate backend and model work. The public
+GitHub Pages deployment is intended to publish the static frontend only.
+Confirm exact dependency versions in `frontend/package.json` and
+`frontend/package-lock.json`.
 
-## 📊 Community Engagement (CEP)
+## 📊 Community Engagement Project (CEP)
 
-Cyber Suraksha is being developed as a **Community Engagement Project (CEP)**.
-
-The community engagement process will follow:
+Cyber Suraksha is being developed as a Community Engagement Project. The
+planned engagement process may include:
 
 ```text
 Community Selection
-        ↓
+        |
+        v
 Pre-Awareness Survey
-        ↓
+        |
+        v
 Survey Analysis
-        ↓
+        |
+        v
 Identify Awareness Gaps
-        ↓
-Awareness Program
-        ↓
-Technical Solution
-        ↓
-Community Outreach
-        ↓
+        |
+        v
+Awareness Activities
+        |
+        v
 Post-Awareness Survey
-        ↓
-Impact Evaluation
+        |
+        v
+Review and Evaluate Findings
 ```
 
-The survey will be used to understand the community's existing awareness rather than assuming that users lack cyber-fraud knowledge.
-
----
-
-## 🔐 Security & Privacy
-
-Cyber Suraksha will follow basic privacy and security principles.
-
-The project will not require users to provide sensitive information such as:
-
-* OTPs
-* UPI PINs
-* Passwords
-* Card PINs
-* Bank passwords
-* Other confidential authentication information
-
-Sensitive configuration values and credentials will be stored using environment variables and will not be committed to the repository.
-
----
-
-## 📁 Documentation
-
-Project documentation is maintained in the `docs/` directory.
-
-It includes:
-
-* Survey planning
-* Questionnaire
-* Cyber-fraud research
-* System architecture
-* Database design
-* API documentation
-* Presentation material
-* Project progress
-* Final report
-
----
-
-## 🔮 Future Scope
-
-Possible future enhancements include:
-
-* Marathi, Hindi and English language support
-* Voice-based assistance
-* Improved AI-based scam analysis
-* Mobile/browser security alerts
-* Integration with verified official resources
-* Expanded community awareness campaigns
-* Additional scam detection and educational features
-
----
+Survey findings, dates, sample sizes, and conclusions will be documented
+after the relevant activities have taken place. No outcomes should be
+assumed in advance.
 
 ## 👥 Project Team
 
 **Community Engagement Project**
 
-* Shraddha Shinde
-* Om Pawar
-* Shraddha Jambukar
-* Vaishnavi Sanap
+- Shraddha Shinde
+- Om Pawar
+- Shraddha Jambukar
+- Vaishnavi Sanap
 
----
+## 📁 Project Documentation
+
+- [`SETUP_V1.0.md`](SETUP_V1.0.md) --- setup and development
+  instructions.
+- [`docs/PROJECT_DETAILS.md`](docs/PROJECT_DETAILS.md) --- detailed
+  project overview, objectives, and scope.
+- [`docs/reports & survey/`](docs/reports%20%26%20survey/) — project reports, survey plans, questionnaires, analysis, and findings.
+
+## 🔐 Security, Privacy, and Safety
+
+- Never share passwords, OTPs, UPI PINs, card PINs, or account
+  recovery codes with unverified callers or through suspicious links.
+- Do not install remote-access applications at the request of an
+  unverified caller.
+- Avoid collecting or publishing unnecessary personal information.
+- Keep credentials, API keys, private keys, and `.env` files out of
+  version control.
+- Verify reporting instructions and contact details on official
+  websites.
+
+## 🔮 Future Scope
+
+Potential future enhancements may include:
+
+- Marathi, Hindi, and English language support.
+- Additional cyber-safety learning materials.
+- Expanded community awareness activities.
+- Improved scam-analysis and guidance tools.
+- Further accessibility and usability improvements.
+- Additional integrations with verified public resources.
+
+These items are possibilities, not a claim that the features are
+currently implemented.
 
 ## 📌 Project Status
 
-🚧 **Currently in Development**
+**Status: In Development**
 
-The project is being developed incrementally, beginning with the frontend and backend foundation, followed by database integration, awareness modules, assistance features, and AI components.
-
----
+The project is being developed incrementally. Check the current frontend
+source code and project documentation for the latest implementation
+status.
 
 ## 📜 Disclaimer
 
-Cyber Suraksha is an educational and awareness project.
+Cyber Suraksha is an independent educational project and is **not a
+government website**. It does not investigate cybercrime, freeze
+accounts, recover money, or guarantee the outcome of a report. Its
+content is general guidance and is not a substitute for official
+instructions or professional advice.
 
-Information and guidance provided by the platform should not be considered a substitute for official cybercrime investigation, banking support, law-enforcement assistance, or professional legal advice.
+For suspected cyber financial fraud in India, contact **1930 promptly**,
+notify your bank or payment provider immediately, and follow the
+instructions at the [National Cyber Crime Reporting
+Portal](https://cybercrime.gov.in/). For other situations, verify the
+appropriate reporting channel on the relevant official website.
 
-Users should rely on appropriate verified official channels when reporting actual cyber-fraud incidents.
+## 🔗 Project Links
+
+- **GitHub Repository:** https://github.com/0mPawar/CyberSuraksha
+- **GitHub Pages:** https://0mPawar.github.io/CyberSuraksha/
+  _(availability depends on deployment configuration)_
+
+## 🏷️ Topics
+
+`cyber-security` · `cyber-fraud` · `digital-scam` · `cyber-awareness` ·
+`digital-safety` · `online-safety` · `react` · `vite` ·
+`community-engagement` · `cep`
 
 ---
 
-## 🏷️ Tags
-
-`cyber-security` `cyber-fraud` `digital-scam` `cyber-awareness` `digital-safety` `scam-awareness` `online-safety` `react` `vite` `nodejs` `express` `ai` `community-engagement` `cep`
-
----
-
-### 💡 Think Before You Click, Verify Before You Trust.
-
-```
-
-### One thing I'd keep as-is for now
-
-I intentionally used **"Planned Features"** rather than saying everything is already implemented. Since we're currently only at the **React + Node/Express foundation**, the README stays accurate as the project grows.
-```
+**Think Before You Click. Verify Before You Trust.**
